@@ -458,6 +458,7 @@
                 accuracy: finalAccuracy
             })
         }
+        loadLeaderboard()
     }
 
     input.addEventListener("keydown", e=>{
@@ -502,7 +503,7 @@
             wrongEl.textContent = wrong
             updateStats()
         }
-        loadLeaderboard()
+        
     })
 
     window.restart = function(){
